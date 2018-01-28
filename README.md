@@ -32,3 +32,23 @@ git add -p
 git ci -m "sync with last commit of submodule's master"
 git push
 ```
+
+###Ajouter submodule et tracker modifs depuis conteneur (super project)
+
+Ajouter submodule à repo courant:
+
+```
+git submodule add git_url_submodule target_dir
+```
+
+Pousser la relation sur la branche distante:
+```
+git add -p 
+git commit -m "add submodule"
+git push
+```
+
+Tracker les messages de commit du sous module depuis conteneur:
+```
+git config --global status.submoduleSummary true
+```
