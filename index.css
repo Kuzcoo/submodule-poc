@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.plop_btn {
+  padding: 0.75rem 1.25rem;
+  width: 200px;
+  font-size: 1rem;
+  font-weight: normal;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent; }
+  .plop_btn--primary {
+    color: #fff;
+    background-color: #333; }
+    .plop_btn--primary:hover, .plop_btn--primary:focus {
+      opacity: 0.9; }
